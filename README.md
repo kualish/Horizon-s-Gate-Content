@@ -54,7 +54,7 @@
 ## 地域名
 	• 领域
 		○ Eral - 埃拉尔
-		○ Graven - 克莱文
+		○ Graven - 格瑞文
 		○ Limroft - 林罗夫特
 	• 国家
 		○ Seartial - 西提尔
