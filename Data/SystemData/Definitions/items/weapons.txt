@@ -4583,7 +4583,7 @@ text=<itemBig=gear_boarding><title=登船设备><brAdj=>这些钩子和绳索可
 [ItemType]  name=反登船网;
 ID=gear_antiboarding_net; sprite=1976; spriteWhenHeld=65; 
 texture=items_weapons;
-description=围绕着船的网,击退登船者的速度提高25%.;
+description=围绕着船的网,登船者停留的时间减少25%.;
 weight=2; volume=3000; value=250; element=cannon; itemCategory=tool;
 special=cargo; special=shipWeapon; special=equipInAnySlot;
  pG=pBrown;
@@ -4593,7 +4593,7 @@ ID=gear_antiboarding_net; actorValues=board; damageMultiplier=0.7;
 [JournalEntry]
 ID=item_gear_antiboarding_net;
 category=equipment; halfPage=true; rarity=1;
-title=吸收性网;
+title=反登船网;
 text=<itemBig=gear_antiboarding_net><title=反登船网><brAdj=>由于用粗绳子围住甲板,登上甲板会变得极其困难.<n>在克里沃出没的水域航行时非常有用.;
 
 [ItemType]  name=吸收性网;
