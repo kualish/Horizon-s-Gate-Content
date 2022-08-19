@@ -746,7 +746,7 @@ cloneFrom=outdoor_mtn_rangeL1;
 
 ---MTN RANGE #2
 
-[ItemType]  name=克拉鲁克;
+[ItemType]  name=绝壁巨根;
 ID=outdoor_mtn_rangeL_base_cr; sprite=1569; 
 texture=items_overworld;
 journalID=journal_cragrook;
@@ -763,7 +763,7 @@ pB=p33;
 ID=outdoor_mtn_rangeL_base2_cr; sprite=1578; 
 cloneFrom=outdoor_mtn_rangeL_base_cr;
 
-[ItemType]  name=克拉鲁克;
+[ItemType]  name=绝壁巨根;
 ID=outdoor_mtn_rangeL1_cr; sprite=1570; 
 texture=items_overworld;
 journalID=journal_cragrook;
@@ -922,8 +922,8 @@ cloneFrom=outdoor_mtn_rangeL1_cr;
 [JournalEntry]
 ID=journal_cragrook;
 category=item; halfPage=true; rarity=1;
-title=克拉鲁克;
-text=<itemBig=outdoor_mtn_rangeL_base_cr><title=克拉鲁克><brAdj=>看起来像山脉的东西实际上是一种耐寒的树根.<n>克拉鲁克可以生长至包容整个生态系统.<n>它宝贵的果实只生长在峰顶,<n>供鸟类和其他鸟类食用和传播.;
+title=绝壁巨根;
+text=<itemBig=outdoor_mtn_rangeL_base_cr><title=绝壁巨根><brAdj=>这种看起来像山脉般巨大的东西，实际上是一种坚硬的树状根.<n>绝壁巨根可以生长至包容整个生态系统.<n>它宝贵的果实只生长在峰顶,<n>供鸟和其他鸟类生物食用和播散.;
 
 [ItemType]  name=Rooksbane;
 ID=outdoor_mtn_mushroom1; sprite=1584; 
@@ -953,7 +953,7 @@ pR=pYellow5; pG=pFadeDarker;
 ID=journal_rooksbane;
 category=item; halfPage=true; rarity=1;
 title=Rooksbane;
-text=<itemBig=outdoor_mtn_mushroom1><title=Rooksbane><brAdj=>鲁克祸根通常是一种小型真菌,<N>但它可以在克拉鲁克上长成巨大的蘑菇架子.<N>尽管它有个引人注目的名字,<N>但它实际上是有好处的--鲁克祸根以食腐动物为食,<N>食腐动物经常在克拉鲁克生活和死亡,<n>它们的身体为克拉鲁克提供营养.;
+text=<itemBig=outdoor_mtn_mushroom1><title=Rooksbane><brAdj=>巨根之祸通常是一种小型真菌,<N>但它可以在绝壁巨根上长成巨大的蘑菇架子.<N>尽管它有个耸人听闻的名字,<N>但它实际上对绝壁巨根是有益的--食腐动物以巨根之祸为食,<N>它们在绝壁巨根上生活和死亡,<n>它们的尸体为绝壁巨根提供营养.;
 
 ---MTN RANGE ALT
 
