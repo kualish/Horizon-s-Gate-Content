@@ -302,7 +302,7 @@
 ID=resistant;
 name=抵抗;
 cloneFrom=resistant;
-tooltip=当你造成魔法伤害时,你的<icon=MagEva>魔法抵抗翻倍持续到你下回合.;
+tooltip=当你受到魔法伤害时,你的<icon=MagEva>魔法抵抗翻倍持续到你下回合.;
 
 --name: Gate Adept
 --tooltip: Gain +1 range with all Gate spells at the cost of -1 <icon=moveDistance> Move.
