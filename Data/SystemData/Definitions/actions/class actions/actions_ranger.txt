@@ -1,7 +1,7 @@
 
 
 [Action] ID=Sha_contactShot; 
-	name=近程射击;
+	name=抵近射击;
 	icon=icon_Sh_contactShot;
 	tooltip=射击邻近敌人造成 <math=100 + 10 * c:rank>% 伤害, 忽视武器的最小攻击距离.;
 	rankUpTooltip=每级+10%伤害.;
@@ -39,7 +39,7 @@
 	
 
 [Action] ID=Sha_farshot; 
-	name=远程射击;
+	name=及远射击;
 	icon=icon_Sh_farshot;
 	tooltip=能够超出正常攻击距离 <math=c:rank> 格射击, 造成50%伤害.;
 	mpCost=1 * d:mpCostMult + d:mpCostMod;
@@ -75,7 +75,7 @@
 	
 	
 [Action] ID=Sha_focus; 
-	name=专注;
+	name=聚焦;
 	icon=icon_Sh_focus;
 	harmful=false;
 	tooltip=下回合获得双倍命中和 +<math=c:rank> <icon=PhysAtk>.;
@@ -170,9 +170,9 @@
 	
 	
 [Action] ID=Sha_powerShot; 
-	name=穿刺射击;
+	name=贯穿射击;
 	icon=icon_Sh_powershot;
-	tooltip=直线内穿刺射击造成 80% 伤害. 也能穿刺'守卫'.;
+	tooltip=直线内贯穿射击造成 80% 伤害. 也能穿刺'守卫'.;
 	rankUpTooltip=每级+1最大攻击距离.;
 	tooltipIcons=<icon=noMelee>;
 	tooltipTopRight=<icon=PhysAtk_small><icon=ranged_small>;
@@ -331,13 +331,13 @@
 ID=counterShot;
 name=反击射击;
 cloneFrom=counterShot;
-tooltip=射击任何使用远程武器攻击你的人.<n>(无法与其他近战反击同时使用);
+tooltip=射击任何使用远程武器攻击你的人.<n>(无法与其他远程反击同时使用);
 
 --name: Shrapnel
 --tooltip: Projectile weapon attacks deal 20% damage to adjacent enemies.
 [SupportAbility]
 ID=ricochet;
-name=跳弹;
+name=破片;
 cloneFrom=ricochet;
 tooltip=远程武器攻击对附近的敌人造成20%的伤害;
 
@@ -353,6 +353,6 @@ tooltip=武器命中率超过100%会增加武器伤害(最大+30%).;
 --tooltip: Gain +2 skill with <icon=skill_Bow><icon=skill_Aim> at the cost of -1 <icon=moveDistance>.
 [SupportAbility]
 ID=artillery;
-name=炮兵;
+name=炮台;
 cloneFrom=artillery;
 tooltip=获得+2<icon=skill_Bow><icon=skill_Aim>技能等级，-1<icon=moveDistance>.;
