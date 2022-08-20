@@ -159,7 +159,7 @@
 	
 	
 [Action] ID=Gu_discipline; 
-	name=自律;
+	name=纪律;
 	icon=icon_Gu_discipline;
 	tooltip=通过不屈的意志,治疗负面状态.;
 	rankUpTooltip=每级增加影响范围.;
