@@ -167,7 +167,7 @@
 	
 
 [Action] ID=Un_shroud; 
-	name=遮蔽;
+	name=笼罩;
 	icon=icon_Un_shroud;
 	mpCost=6 * d:mpCostMult * d:mpCostMult_onlyWithCT + d:mpCostMod_onlyWithCT + d:mpCostMod;
 	chargeTime=9 * d:chargeTimeMult * d:chargeTimeMult_onlyWithMP + d:chargeTimeMod + d:chargeTimeMod_onlyWithMP ;
@@ -288,7 +288,7 @@
 	
 
 [Action] ID=Un_drain; 
-	name=枯竭;
+	name=生命吸取;
 	icon=icon_Un_drain;
 	mpCost=4 * d:mpCostMult + d:mpCostMod;
 	tooltip=对附近敌人造成<thinnerIcon=skill_Ruin><math=c:MagAtk + c:rank + c:skill_Ruin>伤害同时恢复伤害值<n=><icon=HP>HP & <icon=MP>MP.;
