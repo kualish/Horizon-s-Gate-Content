@@ -329,7 +329,7 @@
 --tooltip: Do 12% more damage with melee weapon attacks against non-adjacent targets.
 [SupportAbility]
 ID=brutalReach;
-name=残酷触达;
+name=残酷触及;
 cloneFrom=brutalReach;
 tooltip=使用近战武器攻击非相邻目标时增加12%伤害.;
 
