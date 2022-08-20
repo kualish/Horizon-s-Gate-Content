@@ -54,7 +54,7 @@
 	cloneFrom=oneTile;
 
 [Action] ID=Rav_quake; 
-	name=地震;
+	name=震击;
 	icon=icon_Rav_quake;
 	tooltip=震击地面,产生冲击波造成<math=30 + 10 * c:rank>%伤害.;
 	rankUpTooltip=每级+10%伤害.;
@@ -147,7 +147,7 @@
 	occupyAll=false;
 
 [Action] ID=Rav_smite; 
-	name=重推;
+	name=重挥;
 	icon=icon_Rav_holdLine;
 	tooltip=将多个目标推开<math=c:rank>格且造成75%以上伤害.;
 	rankUpTooltip=每级+1推开距离.;
@@ -285,7 +285,7 @@
 	
 
 [Action] ID=Rav_destroy; 
-	name=毁坏;
+	name=毁灭;
 	icon=icon_Rav_destroy;
 	mpCost=3 * d:mpCostMult + d:mpCostMod;
 	tooltip=杀死一名低于10<icon=HP>HP的敌人.必中.;
@@ -335,7 +335,7 @@
 --tooltip: Gain a morale boost for <icon=time>70 when an enemy gets KO'd during your turn
 [SupportAbility]
 ID=revel;
-name=狂欢;
+name=狂热;
 cloneFrom=revel;
 tooltip=在你回合时当敌人被KO时获得'士气增强'持续<icon=time>70.;
 
