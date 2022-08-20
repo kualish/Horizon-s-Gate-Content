@@ -1,6 +1,6 @@
 
 [Action] ID=Swa_boltBalestra; 
-	name=突刺射击;
+	name=射击突刺;
 	icon=icon_Swa_boltBalestra;
 	tooltip=射击一个目标造成80%的伤害,然后对目标冲锋,<n>并挥舞你的副手武器造成50%的伤害.;
 	rankUpTooltip=每级+1攻击距离.;
@@ -365,7 +365,7 @@ tooltip=行动等待时间<icon=time> -1;
 ID=manOfWar;
 name=战争之人;
 cloneFrom=manOfWar;
-tooltip=当你重新装载或使用近战武器攻击时，<n>可用另一只手重新装载武器.<n>(无法由副手近战攻击触发);
+tooltip=当你装填或使用近战武器攻击时，<n>可装填另一只手上握持的武器.<n>(无法由副手近战攻击触发);
 
 --name: Heavy Bandolier
 --tooltip: At the cost of -1 <icon=moveDistance> Move, you can rearrange & equip items freely during combat without using up you acion.
@@ -373,4 +373,4 @@ tooltip=当你重新装载或使用近战武器攻击时，<n>可用另一只手
 ID=heavyBandolier;
 name=重型弹药带;
 cloneFrom=heavyBandolier;
-tooltip=你可以在战斗中布置或装备物品<n>而不消耗你的行动机会，但-1<icon=moveDistance>.;
+tooltip=你可以在战斗中穿脱装备<n>而不消耗你的行动机会，但-1<icon=moveDistance>.;
