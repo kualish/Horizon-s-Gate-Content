@@ -54,7 +54,7 @@
 	
 
 [Action] ID=Sh_whirl; 
-	name=旋转;
+	name=旋风;
 	icon=icon_Sh_whirl;
 	tooltip=使附近敌人快速旋转180度<n>且造成<thinnerIcon=skill_Wind><math=d:windDmgDisplay(4)>伤害.治疗自身'燃烧'状态.;
 	rankUpTooltip=每级增加影响范围.;
@@ -194,7 +194,7 @@
 	
 
 [Action] ID=Sh_shiftStab; 
-	name=换位突刺;
+	name=相位突刺;
 	icon=icon_Sh_shiftStab;
 	harmful=false;
 	tooltip=穿过目标,然后攻击造成+20%伤害.<n=>如果目标身后没有空间,<n>你将会落在目标前方.;
@@ -396,7 +396,7 @@ tooltip=在你回合开始时,目标离你越远你对其造成的近战武器�
 --tooltip: When you use an ability that moves you, reload both equipped weapons.
 [SupportAbility]
 ID=rollingReload;
-name=滚动装载;
+name=翻滚装填;
 cloneFrom=rollingReload;
 tooltip=当你使用位移技能后重新装载你的武器.;
 
@@ -404,7 +404,7 @@ tooltip=当你使用位移技能后重新装载你的武器.;
 --tooltip: At the start and end of your turn, adjacent enemies are turned around 90 degress.
 [SupportAbility]
 ID=distractingAura;
-name=分心光环;
+name=干扰光环;
 cloneFrom=distractingAura;
 tooltip=在你回合开始及结束时,相邻敌人会被旋转90度.;
 
