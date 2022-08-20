@@ -300,7 +300,7 @@
 ID=counterThrow;
 name=反击投掷;
 cloneFrom=counterThrow;
-tooltip=反击任何远程武器攻击你的人，<n>反击攻击距离取决于你投掷武器的技能等级.<n>(无法与其他近战反击同时使用);
+tooltip=对任何用远程武器攻击你的人投掷武器，<n>反击攻击距离取决于你投掷武器的技能等级.<n>(无法与其他近战反击同时使用);
 
 --name: Reckless
 --tooltip: Start your first turn of combat with +5<icon=PhysAtk> and -1<icon=PhysDef>.
