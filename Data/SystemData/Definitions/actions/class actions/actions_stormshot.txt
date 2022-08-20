@@ -184,7 +184,7 @@
 	
 	
 [Action] ID=Sto_splitShot; 
-	name=分射射击;
+	name=分裂射击;
 	icon=icon_Sto_splitShot;
 	tooltip=射击目标造成50%伤害且产生<n>额外的子弹沿对角线分散,<n>每个造成70%伤害.;
 	rankUpTooltip=每级+1攻击距离.;
