@@ -5,7 +5,7 @@
 	mpCost=8 * d:mpCostMult * d:mpCostMult_onlyWithCT + d:mpCostMod_onlyWithCT + d:mpCostMod;
 	chargeTime=12 * d:chargeTimeMult * d:chargeTimeMult_onlyWithMP + d:chargeTimeMod + d:chargeTimeMod_onlyWithMP;
 	
-	tooltip=冻结敌人的血液造成<thinnerIcon=skill_Ice><math=d:iceDmgDisplay(3)>伤害<n>且施加'冰冻'持续<icon=time><math=110 + d:iceDurMax(2) + d:ruinDurMax(2)><finalTextIf=.=2-c:rank>和'中毒'持续<icon=time><math=60 + d:iceDurMax(2) + d:ruinDurMax(2)>.;
+	tooltip=冻结敌人的血液造成<thinnerIcon=skill_Ice><math=d:iceDmgDisplay(3)>伤害<n>且施加'寒冷'持续<icon=time><math=110 + d:iceDurMax(2) + d:ruinDurMax(2)><finalTextIf=.=2-c:rank>和'中毒'持续<icon=time><math=60 + d:iceDurMax(2) + d:ruinDurMax(2)>.;
 	rankUpTooltip=2级时额外造成中毒持续<icon=time><math=50>.;
 	tooltipTopRight=<icon=MagAtk_small><icon=skill_Ice_small><icon=skill_Ruin_small>;
 	
