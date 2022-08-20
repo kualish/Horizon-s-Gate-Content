@@ -1,5 +1,5 @@
 [Action] ID=Sai_heave; 
-	name=举起;
+	name=推撞;
 	icon=icon_Sai_heave;
 	tooltip=向前将对方推开 <math=c:rank> 格. <n=>推到障碍物时会对你的目标和障碍物造成伤害.;
 	rankUpTooltip=每级增加1格推开距离.;
