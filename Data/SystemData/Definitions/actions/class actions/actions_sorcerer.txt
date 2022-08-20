@@ -53,7 +53,7 @@
 
 
 [Action] ID=So_lightning; 
-	name=雷电术;
+	name=落雷击;
 	icon=icon_So_lightning;
 	mpCost=7 * d:mpCostMult * d:mpCostMult_onlyWithCT + d:mpCostMod_onlyWithCT + d:mpCostMod;
 	chargeTime=13 * d:chargeTimeMult * d:chargeTimeMult_onlyWithMP + d:chargeTimeMod + d:chargeTimeMod_onlyWithMP ;
