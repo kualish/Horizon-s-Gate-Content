@@ -137,7 +137,7 @@
 	
 
 [Action] ID=Min_shanty; 
-	name=船夫曲;
+	name=水手歌;
 	icon=icon_Min_shanty;
 	
 	mpCost=6 * d:mpCostMult * d:mpCostMult_onlyWithCT + d:mpCostMod_onlyWithCT + d:mpCostMod;
@@ -271,7 +271,7 @@
 	
 
 [Action] ID=Min_ballad; 
-	name=战争民谣;
+	name=英雄史诗;
 	icon=icon_Min_ballad;
 	
 	mpCost=9 * d:mpCostMult * d:mpCostMult_onlyWithCT + d:mpCostMod_onlyWithCT + d:mpCostMod;
@@ -392,15 +392,15 @@
 --tooltip: When you end your turn with positive morale, adjacent allies gain a morale boost for <icon=time>35.
 [SupportAbility]
 ID=cheerful;
-name=愉快;
+name=鼓舞;
 cloneFrom=cheerful;
-tooltip=当你以'士气'高昂结束回合时,<n>相邻队友获得士气增强持续<icon=time>35;
+tooltip=当你以正面'士气'状态结束回合时,<n>相邻队友获得士气增强持续<icon=time>35;
 
 --name: Battle Caster
 --tooltip: Gain +35%<icon=PhysEva> while casting a spell or charging an ability.
 [SupportAbility]
 ID=battleCaster;
-name=战斗施法者;
+name=战地施法者;
 cloneFrom=battleCaster;
 tooltip=获得+35%<icon=PhysEva>当你施放技能或充能技能时.;
 
