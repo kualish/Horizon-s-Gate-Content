@@ -1,7 +1,7 @@
 
 
 [Action] ID=Ro_poisonTip; 
-	name=毒尖;
+	name=毒刺;
 	icon=icon_Ro_poisonTip;
 	tooltip=使用武器造成50%伤害，并施加中毒持续 <icon=time><math=40 + 20 * c:rank>.;
 	rankUpTooltip=每级增加持续时间 <icon=time>20.;
@@ -98,7 +98,7 @@
 	
 
 [Action] ID=Ro_distract; 
-	name=干扰;
+	name=扰乱;
 	icon=icon_Ro_distract;
 	tooltip=将一名敌人调转方向并打断其施法.;
 	rankUpTooltip=每级增加1攻击距离.;
