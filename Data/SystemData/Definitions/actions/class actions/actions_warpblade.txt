@@ -105,7 +105,7 @@
 	
 	
 [Action] ID=wb_slam; 
-	name=门: 猛摔;
+	name=门: 坠击;
 	icon=icon_gate_slam;
 	casterAnimation=gate_slam;
 	casterAnimationSpeed=1;
@@ -447,15 +447,15 @@
 --tooltip: Teleport behind and then attack anyone who hits you with a melee weapon. Deals half damage.(Can't use with other melee counters.)
 [SupportAbility]
 ID=counterWarp;
-name=反击穿越;
+name=闪现回击;
 cloneFrom=counterWarp;
-tooltip=传送到后面,然后攻击任何使用近战武器攻击你的人,造成50%伤害.(无法与其他近战反击同时使用).;
+tooltip=传送到任何使用近战武器攻击你的人后面,然后攻击,造成50%伤害.(无法与其他近战反击同时使用).;
 
 --name: Warplash
 --tooltip: Melee weapon attacks deal 20% damage to adjacent enemies.
 [SupportAbility]
 ID=warplash;
-name=溅射攻击;
+name=破碎空间;
 cloneFrom=warplash;
 tooltip=近战武器攻击会对相邻敌人造成20%伤害.;
 
