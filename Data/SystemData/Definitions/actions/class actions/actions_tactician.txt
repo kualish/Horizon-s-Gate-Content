@@ -421,4 +421,4 @@ tooltip=战斗开始时，所有队友获得+3<icon=PhysDef><icon=MagDef>，但-
 ID=pensive;
 name=沉思;
 cloneFrom=pensive;
-tooltip=当你回合结束时未行动，将获得+2<icon=MagAtk>持续到你下回合开始.;
+tooltip=若你此回合未行动，将获得+2<icon=MagAtk>持续到你下回合结束.;
