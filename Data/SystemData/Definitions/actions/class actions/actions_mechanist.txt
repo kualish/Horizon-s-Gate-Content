@@ -63,7 +63,7 @@
 	
 	
 [Action] ID=Mec_setWall; 
-	name=便携墙壁;
+	name=展开防护墙;
 	icon=icon_Mec_wall;
 	mpCost=6 * d:mpCostMult + d:mpCostMod;
 	tooltip=部署一面墙壁最长<math=c:rank+2>格持续<icon=time>120.<n>可被钝器打碎.;
@@ -493,7 +493,7 @@
 ID=abilityScanner;
 name=技能扫描器;
 cloneFrom=abilityScanner;
-tooltip=获得+5命中,你可以看到敌人的<n>已知的职业技能;
+tooltip=获得+5命中,你可以看到敌人<n>已知的职业技能;
 
 --name: Augment Charger
 --tooltip: After attacking with a weapon that has a <icon=skill_Fire> <icon=skill_Ice> <icon=skill_Elec> <icon=skill_Wind> augment, enchant yourself with that element for <icon=time>50, Costs 5<icon=MP>, and won't reapply an existing enchantment.
@@ -501,7 +501,7 @@ tooltip=获得+5命中,你可以看到敌人的<n>已知的职业技能;
 ID=augmentCharger;
 name=充能增强;
 cloneFrom=augmentCharger;
-tooltip=当你使用<icon=skill_Fire> <icon=skill_Ice> <icon=skill_Elec> <icon=skill_Wind>元素加强的武器攻击时，消耗5<icon=MP>为自己附魔对应元素持续<icon=time>50,无法再次应用于同一附魔.;
+tooltip=当你使用附着<icon=skill_Fire> <icon=skill_Ice> <icon=skill_Elec> <icon=skill_Wind>元素触发石的武器攻击时，消耗5<icon=MP>为自己附魔对应元素持续<icon=time>50,无法再次应用于同一附魔.;
 
 --name: Essence Converter
 --tooltip: Receive half as much healing, but healing also restores <icon=MP>MP.
@@ -509,4 +509,4 @@ tooltip=当你使用<icon=skill_Fire> <icon=skill_Ice> <icon=skill_Elec> <icon=s
 ID=essenceConverter;
 name=本源转换;
 cloneFrom=essenceConverter;
-tooltip=获得治疗时,同时恢复治疗量一半的<icon=MP>.;
+tooltip=获得的治疗量减半,但治疗也回复<icon=MP>.;
